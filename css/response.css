@@ -1,0 +1,34 @@
+/*  Using this file we will make respinsive website*/
+
+
+@media only screen and (max-width:760px){
+  .sticky{
+    padding: 0% 5%;
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width:425px){
+  .title-text{
+    margin-left: 6%;
+    width: 80%;
+  }
+  .content-1 {
+    margin-left: 35%;
+  }
+  .sticky{
+    padding: 2% 5%;
+    top: 5px;
+  }
+}
+
+@media only screen and (max-width:320px){
+  .site-title h2{
+    font-size: 0.9em;
+  }
+  .title-text{
+    margin-left: 2%;
+    width: 100%;
+    font-size: 0.6em;
+  }
+}

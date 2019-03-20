@@ -1,0 +1,25 @@
+/* we will put all the animation in this file. */
+
+.border-animation::after{
+  content: "";
+  width: 0%;
+  height: 3px;
+  background-color: #EF233C;
+  position: relative;
+  display: block;
+  top: 3px;
+  transition: all 400ms ease;
+}
+
+.border-animation:hover::after{
+  width: 100%;
+}
+
+
+/* Sticky */
+
+.sticky{
+  background-color: #60BAAE;
+  padding: 0% 4%;
+  transition: all;
+}

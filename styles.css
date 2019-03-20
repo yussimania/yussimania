@@ -33,10 +33,13 @@ body {
 
 .title-text{
   width: 50vw;
-  height: 5vh;
-  font-size: 0.8em;
-  color: #F6F8FF;
+  height: 4vh;
+  font-size:1.8em;
+  color: #1EDDE0;
+  background-size: auto;
 }
+
+
 
 
 /* COntent -1 */
@@ -135,5 +138,36 @@ img {
   margin-left: 15%;
 }
 
+/* Footer */
+footer{
+  background-color: black;
+  padding-top: 4%;
+  margin: 0%;
+  position: relative;
+}
+
+footer span {
+  padding: 0.3em 0.7em;
+  color: white;
+  background-color: #242423;
+  border-radius: 50%;
+  margin: 13px 3px;
+  transition: all 500ms ease;
+}
+
+footer p{
+  margin: 0px;
+  color: #3F494C;
+  font-size: 13px;
+  padding-bottom: 8px;
+}
+
+footer .top a {
+  position: absolute;
+  right: 2%;
+  top: 69%;
+  color: #3F494C;
+  transition: all 500ms ease;
+}
 
 /* ************************ */
